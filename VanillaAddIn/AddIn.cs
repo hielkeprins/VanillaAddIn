@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
  */
 
- using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing.Imaging;
@@ -15,15 +15,15 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using Extensibility;
 using Microsoft.Office.Core;
-using MyApplication.VanillaAddIn.Utilities;
+using Labradox.OneNote.Utilities;
 using Application = Microsoft.Office.Interop.OneNote.Application;  // Conflicts with System.Windows.Forms
 
 #pragma warning disable CS3003 // Type is not CLS-compliant
 
-namespace MyApplication.VanillaAddIn
+namespace Labradox.OneNote
 {
 	[ComVisible(true)]
-	[Guid("D5ECCD00-CF2D-409B-B65A-BDBACB9F21DB"), ProgId("MyApplication.VanillaAddIn")]
+	[Guid("354039CD-7124-49CA-A151-93AF24232EB4"), ProgId("Labradox.OneNote")]
 
 	public class AddIn : IDTExtensibility2, IRibbonExtensibility
 	{

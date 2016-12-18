@@ -14,7 +14,7 @@ using System.Windows.Forms;
 using Microsoft.Office.Interop.OneNote;
 using Application = Microsoft.Office.Interop.OneNote.Application;  // Conflicts with System.Windows.Forms
 
-namespace MyApplication.VanillaAddIn
+namespace Labradox.OneNote
 {
 	public partial class MainForm : Form
 	{

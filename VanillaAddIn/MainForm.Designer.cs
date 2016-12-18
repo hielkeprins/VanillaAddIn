@@ -1,4 +1,4 @@
-﻿namespace MyApplication.VanillaAddIn
+﻿namespace Labradox.OneNote
 {
 	partial class MainForm
 	{

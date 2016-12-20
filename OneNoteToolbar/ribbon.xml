@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" loadImage="GetImage">
+	<ribbon>
+		<tabs>
+			<!--
+			<tab idMso="TabHome">
+				<group id="groupOneNoteToolbar" label="OneNoteToolbar">
+					<button id="buttonOneNoteToolbar" label="OneNoteToolbar" size="large" screentip="OneNoteToolbar" onAction="OneNoteToolbarButtonClicked" image="Logo.png"/>
+				</group>			
+			</tab>
+			-->
+			<tab id="tabLabradoxOneNoteToolbar" label="Labradox">
+				<group id="groubLabradoxBinder" label="Binder">
+					<button id="buttonLabradoxBind" label="Bind pages" size="large" screentip="Distribute existing elements in a OneNote section over separate subpages." onAction="buttonBinderClicked" image="Logo.png"/>
+					<button id="buttonLabradoxTOC" label="Table of Contents" size="large" screentip="Insert a table with links to all subpages of the current page." onAction="buttonTOCClicked" image="Logo.png"/>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
+

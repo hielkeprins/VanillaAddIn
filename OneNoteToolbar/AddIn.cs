@@ -99,17 +99,24 @@ namespace Labradox.OneNote
 		{
 		}
 
-		public async Task VanillaAddInButtonClicked(IRibbonControl control)
+		public async Task buttonBinderClicked(IRibbonControl control)
 		{
-			MessageBox.Show("VanillaAddIn button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
+			MessageBox.Show("Binder button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
 			ShowForm();
 			return;
 		}
 
-		private void ShowForm()
+        public async Task buttonTOCClicked(IRibbonControl control)
+        {
+            MessageBox.Show("Table of contents (TOC) button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
+            ShowForm();
+            return;
+        }
+
+        private void ShowForm()
 		{
 			this.mainForm = new MainForm(this.OneNoteApplication);
-            System.Windows.Forms.Application.Run(this.mainForm);
+			System.Windows.Forms.Application.Run(this.mainForm);
 		}
 
 		/// <summary>

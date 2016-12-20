@@ -61,7 +61,7 @@ namespace Labradox.OneNote.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to VanillaAddIn.
+        ///   Looks up a localized string similar to OneNoteToolbar.
         /// </summary>
         internal static string AddInTitle {
             get {
@@ -81,6 +81,16 @@ namespace Labradox.OneNote.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;customUI xmlns=&quot;http://schemas.microsoft.com/office/2006/01/customui&quot; loadImage=&quot;GetImage&quot;&gt;
+        ///	&lt;ribbon&gt;
+        ///		&lt;tabs&gt;
+        ///			&lt;tab idMso=&quot;TabHome&quot;&gt;
+        ///				&lt;group id=&quot;groupOneNoteToolbar&quot; label=&quot;OneNoteToolbar&quot;&gt;
+        ///					&lt;button id=&quot;buttonOneNoteToolbar&quot; label=&quot;OneNoteToolbar&quot; size=&quot;large&quot; screentip=&quot;OneNoteToolbar&quot; onAction=&quot;OneNoteToolbarButtonClicked&quot; image=&quot;Logo.png&quot;/&gt;
+        ///				&lt;/group&gt;			
+        ///			&lt;/tab&gt;
+        ///			&lt;tab id=&quot;tabOneNoteToolbar2&quot; label=&quot;OneNoteToolbar2&quot;&gt;
+        ///				&lt;group id=&quot;groupOn [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ribbon {
             get {

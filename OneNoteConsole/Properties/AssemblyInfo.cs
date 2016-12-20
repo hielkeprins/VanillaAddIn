@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VanillaConsole")]
+[assembly: AssemblyTitle("Labradox OneNote Console")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("VanillaConsole")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2016")]
+[assembly: AssemblyCompany("Labradox Ltd.")]
+[assembly: AssemblyProduct("Labradox Publisher")]
+[assembly: AssemblyCopyright("Copyright © Labradox Ltd.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

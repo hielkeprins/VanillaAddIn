@@ -72,29 +72,50 @@ namespace Labradox.OneNote.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Logo {
+        internal static System.Drawing.Bitmap LabradoxLogo {
             get {
-                object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                object obj = ResourceManager.GetObject("LabradoxLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
-        ///&lt;customUI xmlns=&quot;http://schemas.microsoft.com/office/2006/01/customui&quot; loadImage=&quot;GetImage&quot;&gt;
+        ///&lt;customUI xmlns=&quot;http://schemas.microsoft.com/office/2006/01/customui&quot; loadImage=&quot;GetToolbarButtonImage&quot;&gt;
         ///	&lt;ribbon&gt;
         ///		&lt;tabs&gt;
+        ///			&lt;!--
         ///			&lt;tab idMso=&quot;TabHome&quot;&gt;
         ///				&lt;group id=&quot;groupOneNoteToolbar&quot; label=&quot;OneNoteToolbar&quot;&gt;
         ///					&lt;button id=&quot;buttonOneNoteToolbar&quot; label=&quot;OneNoteToolbar&quot; size=&quot;large&quot; screentip=&quot;OneNoteToolbar&quot; onAction=&quot;OneNoteToolbarButtonClicked&quot; image=&quot;Logo.png&quot;/&gt;
         ///				&lt;/group&gt;			
         ///			&lt;/tab&gt;
-        ///			&lt;tab id=&quot;tabOneNoteToolbar2&quot; label=&quot;OneNoteToolbar2&quot;&gt;
-        ///				&lt;group id=&quot;groupOn [rest of string was truncated]&quot;;.
+        ///			--&gt;
+        ///			&lt;tab id=&quot;tabLabradoxOneNoteToolbar&quot; label=&quot;Labr [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ribbon {
             get {
                 return ResourceManager.GetString("ribbon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ToolbarButtonSplit {
+            get {
+                object obj = ResourceManager.GetObject("ToolbarButtonSplit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ToolbarButtonTOC {
+            get {
+                object obj = ResourceManager.GetObject("ToolbarButtonTOC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

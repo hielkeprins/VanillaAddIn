@@ -100,8 +100,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Logo.ico" />
-    <Content Include="Resources\Logo.png" />
+    <None Include="Resources\LabradoxIcon.ico" />
+    <None Include="Resources\LabradoxLogo.png" />
+    <None Include="Resources\Split_256x.png" />
+    <None Include="Resources\TableScriptParagraph_256x.png" />
     <Content Include="ribbon.xml">
       <SubType>Designer</SubType>
     </Content>

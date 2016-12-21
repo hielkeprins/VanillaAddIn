@@ -99,17 +99,26 @@ namespace Labradox.OneNote
 		{
 		}
 
-		public async Task buttonBinderClicked(IRibbonControl control)
+		public async Task buttonSplitPageClicked(IRibbonControl control)
 		{
-			MessageBox.Show("Binder button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
+			MessageBox.Show("Split page button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
 			ShowForm();
 			return;
 		}
 
-        public async Task buttonTOCClicked(IRibbonControl control)
+		public async Task buttonInsertTOCClicked(IRibbonControl control)
+		{
+			MessageBox.Show("Table of contents (TOC) button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
+			ShowForm();
+			return;
+		}
+
+        public async Task buttonSelectedWordClicked(IRibbonControl control)
         {
-            MessageBox.Show("Table of contents (TOC) button pushed! Now we'll load up the full XML hierarchy as well as the current page XML. This may take some time.");
-            ShowForm();
+            string selection = "<not implemented>";
+
+            MessageBox.Show("Current word: " + selection);
+
             return;
         }
 
@@ -127,7 +136,19 @@ namespace Labradox.OneNote
 		public IStream GetImage(string imageName)
 		{
 			MemoryStream imageStream = new MemoryStream();
-			Properties.Resources.Logo.Save(imageStream, ImageFormat.Png);
+			switch (imageName)
+			{
+				case "ToolbarButtonSplit":
+					Properties.Resources.ToolbarButtonSplit.Save(imageStream, ImageFormat.Png);
+					break;
+				case "ToolbarButtonTOC":
+					Properties.Resources.ToolbarButtonTOC.Save(imageStream, ImageFormat.Png);
+					break;
+
+				default:
+					Properties.Resources.LabradoxLogo.Save(imageStream, ImageFormat.Png);
+					break;
+			}
 			return new CCOMStreamWrapper(imageStream);
 		}
 	}

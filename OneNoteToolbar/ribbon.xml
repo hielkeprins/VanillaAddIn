@@ -10,10 +10,28 @@
 			</tab>
 			-->
 			<tab id="tabLabradoxOneNoteToolbar" label="Labradox">
-				<group id="groubLabradoxBinder" label="Binder">
-					<button id="buttonLabradoxBind" label="Bind pages" size="large" screentip="Distribute existing elements in a OneNote section over separate subpages." onAction="buttonBinderClicked" image="Logo.png"/>
-					<button id="buttonLabradoxTOC" label="Table of Contents" size="large" screentip="Insert a table with links to all subpages of the current page." onAction="buttonTOCClicked" image="Logo.png"/>
+				<group id="groupLabradoxBinder" label="Binder">
+					<button id="buttonLabradoxBind" 
+                  label="Bind pages" 
+                  size="large" 
+                  screentip="Distribute existing elements in a OneNote section over separate subpages." 
+                  onAction="buttonSplitPageClicked" 
+                  image="ToolbarButtonSplit"/>
+					<button id="buttonLabradoxTOC" 
+                  label="Table of Contents" 
+                  size="large" 
+                  screentip="Insert a table with links to all subpages of the current page." 
+                  onAction="buttonInsertTOCClicked" 
+                  image="ToolbarButtonTOC"/>
 				</group>
+        <group id="groupLabradoxWordlets" label="Wordlets">
+          <button id="buttonLabradoxSelectedWord"
+                  label="Selected Word"
+                  size="large"
+                  screentip="Displays current word in a simple dialog."
+                  onAction="buttonSelectedWordClicked"
+                  image="#"/>
+        </group>
 			</tab>
 		</tabs>
 	</ribbon>

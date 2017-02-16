@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8FB6C84019962ABB6C1C7C5EE5D799B7"
+        "OwnerKey" = "8:_692D7E391D074D36AD2530720FB8D6C4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D5BFDA93EBA14E93841364936B411A9B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -158,6 +164,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8FB6C84019962ABB6C1C7C5EE5D799B7"
+            {
+            "SourcePath" = "8:LabradoxOneNoteToolbar.tlb"
+            "TargetName" = "8:LabradoxOneNoteToolbar.tlb"
+            "Tag" = "8:"
+            "Folder" = "8:_76DE0C3E4C3C41398EBF2960C9F81C36"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:2"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5BFDA93EBA14E93841364936B411A9B"
             {
             "SourcePath" = "8:Resources\\license.rtf"
@@ -301,7 +327,7 @@
         "Name" = "8:LabradoxOneNoteToolbar"
         "ProductName" = "8:LabradoxOneNoteAddIn"
         "ProductCode" = "8:{4E8AF60B-3BDD-44DB-9D20-5CB00C281CFC}"
-        "PackageCode" = "8:{33D92157-E411-467F-AB78-74AC707A878B}"
+        "PackageCode" = "8:{E9D5AEE0-7CED-4E6A-B08B-A9C4F7031EE7}"
         "UpgradeCode" = "8:{ADB022CD-9C28-4922-A906-F1C6271ABE8F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1379,7 +1405,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_692D7E391D074D36AD2530720FB8D6C4"
             {
-            "SourcePath" = "8:..\\VanillaAddIn\\obj\\x86\\Debug\\MyApplication.VanillaAddIn.dll"
+            "SourcePath" = "8:..\\OneNoteToolbar\\obj\\x86\\Debug\\LabradoxOneNoteToolbar.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_76DE0C3E4C3C41398EBF2960C9F81C36"

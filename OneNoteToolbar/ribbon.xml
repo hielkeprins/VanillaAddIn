@@ -23,6 +23,12 @@
                   screentip="Insert a table with links to all subpages of the current page." 
                   onAction="buttonInsertTOCClicked" 
                   image="ToolbarButtonTOC"/>
+          <button id="buttonLabradoxPublish"
+                  label="Publish"
+                  size="large"
+                  screentip="Publish current notebook as a Jekyll notes collection."
+                  onAction="buttonPublishClicked"
+                  image="#"/>
 				</group>
         <group id="groupLabradoxWordlets" label="Wordlets">
           <button id="buttonLabradoxSelectedWord"

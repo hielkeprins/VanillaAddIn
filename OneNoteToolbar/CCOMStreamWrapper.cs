@@ -8,7 +8,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace Labradox.OneNote.Utilities
+namespace Labradox.OneNote.Toolbar
 {
     class CCOMStreamWrapper : IStream
     {
